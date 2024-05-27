@@ -48,7 +48,7 @@ function [p,h] = SThmn_topobox(freqHp,freqSp,freq,foi,boxType)
 if length(foi) ~= 2
     error('Spatial comparison of headphone and speaker stimulation is only possible for 2 frequencies in the "foi" variable.')
 end
-if (~any(strcmp(boxType,'stim')) && ~any(strcmp(boxType,'freq'))) || length(boxType)~=2
+if ~(any(strcmp(boxType,'stim')) || any(strcmp(boxType,'freq'))) || length(boxType)>2
     error('The "boxType" variable can only be "stim" in the case of comparing headphone and speaker stimulation, or "freq" in the case of comparing frequencies of interest!')
 end
 
