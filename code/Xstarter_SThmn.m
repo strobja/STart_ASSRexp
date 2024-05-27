@@ -125,7 +125,7 @@ time = data_tfr.time;
 freq = data_tfr.freq;
 textPos = [0.025 0.24];
 
-SThmn_topobox(tfrHp,tfrSp,foi,freq,time,textPos)
+SThmn_regres(tfrHp,tfrSp,foi,freq,time,textPos)
 
 
 %% frequency correlation
