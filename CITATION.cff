@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Strobl"
+  given-names: "Jan"
+  orcid: "https://orcid.org/0000-0002-2835-4391"
+title: "Unveiling Stimulus Transduction Artifacts in Auditory Steady-State Response Experiments: Characterization, Risks, and Mitigation Strategies."
+version: 1.0
+doi: 10.5281/zenodo.11353222
+date-released: 2024-05-27
+url: "https://doi.org/10.5281/zenodo.11353222"
